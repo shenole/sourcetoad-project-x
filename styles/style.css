@@ -2,6 +2,7 @@
 
 p.message-text {
   font-family: 'Roboto', sans-serif;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
 }
