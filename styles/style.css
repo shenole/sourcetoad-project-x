@@ -38,7 +38,7 @@ img.logo {
 }
 
 .home-view {
-  display: none;
+  
 }
 
 .to-do-view {
@@ -50,11 +50,11 @@ img.logo {
 }
 
 .event#gc {
-
+display: none;
 }
 
 .event#pa{
-
+display: none;
 }
 
 h4 {
@@ -93,7 +93,52 @@ h2 {
   color: #E0E0E0;
 }
 
+.amenities-view {
+  background-color: #333333;
+  display: none;
+}
+
+.amen-tile {
+  width: 185;
+  height: 194px;
+}
+
+#pool {
+  background: url("../images/pool.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#spa {
+  background: url("../images/spa.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#gym {
+  background: url("../images/GYM-2.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#service {
+  background: url("../images/bellboy.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.amenity-page {
+  height: 388px;
+  background-color: #333333;
+  display: none;
+}
+
+.amen-left {
+  padding-top: 27px;
+}
+
+img.amenity-pic {
+  border-radius: 50%;
+}
+
 .footer {
   height: 80px;
   background-color: #2B3D53;
+  display: none;
 }
