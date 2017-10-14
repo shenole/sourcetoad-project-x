@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 p.message-text {
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-align: center;
 }
@@ -32,4 +35,61 @@ img.logo {
   height: 463px;
   background: url("../images/cruise1.jpg") no-repeat center;
   background-size: cover;
+}
+
+.home-view {
+  display: none;
+}
+
+.to-do-view {
+  background-color: #333333;
+}
+
+.event {
+  border-bottom: solid 1px #E0E0E0;
+}
+
+.event#pa{
+
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15.5px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #E0E0E0;
+}
+
+.to-do {
+  margin-top: 10px;
+  margin-right: 0;
+  border-radius: 50%;
+}
+
+.descrb {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12.75px;
+  color: #E0E0E0;
+}
+
+.event#vic-one {
+  height: 194px;
+  display: none;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 15px;
+  color: #E0E0E0;
+}
+
+.footer {
+  height: 80px;
+  background-color: #2B3D53;
 }
