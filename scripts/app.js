@@ -2,5 +2,11 @@
 
 window.onload = function greet(){
   const audioGreet = document.getElementById('greeting');
-  audioGreet.play();
+  audioGreet.pause();
 }
+
+// "Home" icon is armed
+
+
+
+// Navi-bar selction actions

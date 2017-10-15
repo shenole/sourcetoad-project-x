@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+/* Animations */
+
+@keyframes navi-slide {
+  0% {width: 0; opacity: 0;}
+  50% {opacity: 0;}
+  75% {opacity: .8;}
+  100% {width: 375px; opacity: 1}
+}
+
 p.message-text {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -10,6 +19,7 @@ p.message-text {
 body, html {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .header {
@@ -45,18 +55,24 @@ right: 0;*/
 }
 
 #to-do-bar {
+  width: 0;
   top: 203px;
   right: 0;
+  animation: navi-slide 1.25s ease-in-out 5s forwards;
 }
 
 #cuisine-bar {
+  width: 0;
   top: 270px;
   right: 0;
+  animation: navi-slide 1.25s ease-in-out 6.25s forwards;
 }
 
 #amen-bar {
+  width: 0;
   top: 337px;
   right: 0;
+  animation: navi-slide 1.25s ease-in-out 7.5s forwards;
 }
 
 .hero1 {
