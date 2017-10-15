@@ -4,19 +4,15 @@ window.onload = function greet(){
   audioGreet.pause();
 }
 
-// "Home" icon is armed
-
-
-
-// ===== Navi-bar selction actions
+// Variables
 const toDo = document.querySelector('#to-do-bar');
 const food = document.querySelector('#cuisine-bar');
 const amenit = document.querySelector('#amen-bar');
-
 const msn = document.querySelector('.message-text');
-
 const homePage = document.querySelector('.home-view');
-var footer = document.querySelector('.footer');
+const footer = document.querySelector('.footer');
+
+// Navi-bar actions
 
 toDo.addEventListener('click', function(){
   msn.textContent = "Here is a listing of the evening’s events. Which would you like to attend?"
