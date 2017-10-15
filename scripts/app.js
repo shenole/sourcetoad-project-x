@@ -52,6 +52,56 @@ document.querySelector('#gc').addEventListener('click', function(){
   document.querySelector('#vic-one').style.display = 'block';
 })
 
+document.querySelector('#pa').addEventListener('click', function(){
+  msn.textContent = "Your reservations have been made. See you there!";
+  document.querySelector('#gc').style.display = 'none';
+  document.querySelector('#vic-one').style.display = 'block';
+})
+
+// Cuisine selection
+document.querySelector('#dk').addEventListener('click', function(){
+  msn.textContent = "This meal has been composed by...";
+  document.querySelector('#dk').style.display = "none";
+  document.querySelector('#fh').style.display = "none";
+  document.querySelector('#chef1-page').style.display = 'block';
+})
+
+document.querySelector('#fh').addEventListener('click', function(){
+  msn.textContent = "The creator of this meal is...";
+  document.querySelector('#dk').style.display = "none";
+  document.querySelector('#fh').style.display = "none";
+  document.querySelector('#chef2-page').style.display = 'block';
+})
+
+// Amenity selection
+document.querySelector('#pool').addEventListener('click', function(){
+  msn.textContent = "Here is more information about our pool.";
+  document.querySelector('.amenities-view').style.display = "none";
+  document.querySelector('.amen-des').style.display = 'block';
+  document.querySelector('#pool-page').style.display = 'block';
+})
+
+document.querySelector('#spa').addEventListener('click', function(){
+  msn.textContent = "Here is more information about our spa.";
+  document.querySelector('.amenities-view').style.display = "none";
+  document.querySelector('.amen-des').style.display = 'block';
+  document.querySelector('#spa-page').style.display = 'block';
+})
+
+document.querySelector('#gym').addEventListener('click', function(){
+  msn.textContent = "Here is more information about our gym.";
+  document.querySelector('.amenities-view').style.display = "none";
+  document.querySelector('.amen-des').style.display = 'block';
+  document.querySelector('#gym-page').style.display = 'block';
+})
+
+document.querySelector('#service').addEventListener('click', function(){
+  msn.textContent = "Here is more information about our service.";
+  document.querySelector('.amenities-view').style.display = "none";
+  document.querySelector('.amen-des').style.display = 'block';
+  document.querySelector('#service-page').style.display = 'block';
+})
+
 /*
 // Home icon functionality
 home.addEventListener('click', function(){

@@ -102,14 +102,6 @@ img.logo {
   border-bottom: solid 1px #E0E0E0;
 }
 
-#gc {
-
-}
-
-#pa {
-
-}
-
 h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -163,6 +155,33 @@ h2 {
   border-radius: 50%;
 }
 
+#chef1-page {
+  height: 390px;
+  display: none;
+}
+
+#chef2-page {
+  height: 390px;
+  display: none;
+}
+
+#dk {
+
+}
+
+#fh {
+
+}
+
+#chef1-page {
+  display: none;
+}
+
+#chef2-page {
+  display: none;
+}
+
+
 /*  ===== Amenities-view ===== */
 
 .amenities-view {
@@ -195,6 +214,12 @@ h2 {
   background-size: cover;
 }
 
+.amens-des {
+  height: 388px;
+  background-color: #333333;
+  display: none;
+}
+
 .amenity-page {
   height: 388px;
   background-color: #333333;
@@ -207,6 +232,10 @@ h2 {
 
 img.amenity-pic {
   border-radius: 50%;
+}
+
+#pool-page{
+  display: none;
 }
 
 .footer {

@@ -49,7 +49,7 @@
     <div class="row view to-do-view">
       <div class="col-xs-12 col-sm-12 event" id="gc">
         <div class="col-xs-6 col-sm-6 left">
-          <img src="images/comic.jpg" class="img-responsive cnter-block to-do" id="comic">
+          <img src="images/comic.jpg" class="img-responsive center-block to-do" id="comic">
         </div>
         <div class="col-xs-6 col-sm-6 right">
           <h4>George Carlin</h4>
@@ -58,7 +58,7 @@
       </div>
       <div class="col-xs-12 col-sm-12 event"id="pa">
         <div class="col-xs-6 col-sm-6 left">
-          <img src="images/movie.jpg" class="img-responsive cnter-block to-do" id="movie">
+          <img src="images/movie.jpg" class="img-responsive center-block to-do" id="movie">
         </div>
         <div class="col-xs-6 col-sm-6 right">
           <h4>Poseidon Advenure</h4>
@@ -74,7 +74,7 @@
     <div class="row view cuisine-view">
       <div class="col-xs-12 col-sm-12 meal" id="dk">
         <div class="col-xs-6 col-sm-6 left">
-          <img src="images/food1.jpg" class="img-responsive cnter-block dish" id="food1">
+          <img src="images/food1.jpg" class="img-responsive center-block dish" id="food1">
         </div>
         <div class="col-xs-6 col-sm-6 right">
           <h4>Classic Duck</h4>
@@ -83,16 +83,33 @@
       </div>
       <div class="col-xs-12 col-sm-12 event"id="fh">
         <div class="col-xs-6 col-sm-6 left">
-          <img src="images/food2.jpg" class="img-responsive cnter-block dish" id="food2">
+          <img src="images/food2.jpg" class="img-responsive center-block dish" id="food2">
         </div>
         <div class="col-xs-6 col-sm-6 right">
           <h4>Shushi Delux</h4>
           <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer.</p>
         </div>
       </div>
-      <!--<div class="col-xs-12 col-sm-12 event"id="chef-one">
-        <h2>The Sweedish Chef</h2>
-      </div>-->
+
+      <!-- Meal Description Pages -->
+      <div class="col-xs-12 col-sm-12 chefs" id="chef1-page">
+        <div class="col-xs-6 col-sm-6" id="chef1-pic">
+          <img src="images/chef1.jpg" class="img-responsive center-block to-do" id="sc">
+        </div>
+        <div class="col-xs-6 col-sm-6" id="chef1-text">
+          <h4>Sweedish Chef</h4>
+          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer. <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 chefs" id="chef2-page">
+        <div class="col-xs-6 col-sm-6" id="chef2-pic">
+          <img src="images/chef2.jpg" class="img-responsive center-block to-do" id="sc">
+        </div>
+        <div class="col-xs-6 col-sm-6" id="chef1-text">
+          <h4>Homeless Chef</h4>
+          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer. <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus</p>
+        </div>
+      </div>
     </div>
 
     <!-- Amenities View -->
@@ -112,33 +129,50 @@
     </div>
 
     <!-- Amenity Description Page View -->
-    <div class="row view amenity-page">
-      <div class="col-xs-12 col-sm-12 amen">
-        <div class="col-xs-6 col-sm-6 amen-left">
-          <img src="images/pool2.jpg" class="img-responsive center-block amenity-pic" id="pool">
+    <div class="row view amen-des">
+      <div class="col-xs-12 col-sm-12 view amenity-page" id="pool-page">
+        <div class="col-xs-6 col-sm-6" id="pool-pic">
+          <img src="images/pool2.jpg" class="img-responsive center-block to-do" id="pl">
         </div>
-        <div class="col-xs-6 col-sm-6 amen-right">
+        <div class="col-xs-6 col-sm-6" id="chef1-text">
           <h4>Pool</h4>
-          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer.</p>
-          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer.</p>
+          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer. <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 view amenity-page" id="spa-page">
+        <div class="col-xs-6 col-sm-6" id="pool-pic">
+          <img src="images/spa2.jpg" class="img-responsive center-block to-do" id="sa">
+        </div>
+        <div class="col-xs-6 col-sm-6" id="chef1-text">
+          <h4>Spa</h4>
+          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer. <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 view amenity-page" id="gym-page">
+        <div class="col-xs-6 col-sm-6" id="gym-pic">
+          <img src="images/GYM-2b.jpg" class="img-responsive center-block to-do" id="gy">
+        </div>
+        <div class="col-xs-6 col-sm-6" id="chef1-text">
+          <h4>Gym</h4>
+          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer. <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 view amenity-page" id="service-page">
+        <div class="col-xs-6 col-sm-6" id="service-pic">
+          <img src="images/bellboy2.jpg" class="img-responsive center-block to-do" id="sv">
+        </div>
+        <div class="col-xs-6 col-sm-6" id="chef1-text">
+          <h4>Service</h4>
+          <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus, quisque risus dolor proin praesent, penatibus integer. <p class="descrb">Lorem ipsum dolor sit amet, dolor nullam, quisque curabitur fusce sit orci, augue tellus</p>
         </div>
       </div>
     </div>
 
-    <!-- Footer -->
+<!-- Footer -->
     <div class="row footer">
       <div class="col-xs-12 col-sm-12">
       </div>
     </div>
-
-
-
-
-
-
-
-
-
 
   <!-- Latest compiled and minified JQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
