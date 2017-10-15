@@ -39,8 +39,11 @@ img.logo {
   height: 153px;
 }
 
-/*top: 203px;
-right: 0;*/
+.msng {
+  height: 52px;
+}
+
+/* ===== Navigation ===== */
 
 .navi-bar {
   position: absolute;
@@ -74,6 +77,8 @@ right: 0;*/
   animation: navi-slide 1.25s ease-in-out 7.5s forwards;
 }
 
+/* ===== End Navigation ===== */
+
 .hero1 {
   padding-right: 0;
   padding-left: 0;
@@ -86,7 +91,7 @@ right: 0;*/
 
 }
 
-/* ===== To Do/Cuisine View ===== */
+/* ===== To Do View ===== */
 
 .to-do-view {
   background-color: #333333;
@@ -97,11 +102,11 @@ right: 0;*/
   border-bottom: solid 1px #E0E0E0;
 }
 
-.event#gc {
+#gc {
 
 }
 
-.event#pa{
+#pa {
 
 }
 
@@ -139,6 +144,23 @@ h2 {
   margin-top: 90px;
   margin-bottom: 15px;
   color: #E0E0E0;
+}
+
+/* ===== Cuisine View ===== */
+
+.cuisine-view {
+  background-color: #333333;
+  display: none;
+}
+
+.meal {
+  border-bottom: solid 1px #E0E0E0;
+}
+
+.dish {
+  margin-top: 10px;
+  margin-right: 0;
+  border-radius: 50%;
 }
 
 /*  ===== Amenities-view ===== */
