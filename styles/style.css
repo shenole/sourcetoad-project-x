@@ -87,8 +87,11 @@ right: 0;*/
 
 }
 
+/* ===== To Do/Cuisine View ===== */
+
 .to-do-view {
   background-color: #333333;
+  display: none;
 }
 
 .event {
@@ -96,11 +99,11 @@ right: 0;*/
 }
 
 .event#gc {
-display: none;
+
 }
 
 .event#pa{
-display: none;
+
 }
 
 h4 {
@@ -138,6 +141,8 @@ h2 {
   margin-bottom: 15px;
   color: #E0E0E0;
 }
+
+/*  ===== Amenities-view ===== */
 
 .amenities-view {
   background-color: #333333;
@@ -186,5 +191,13 @@ img.amenity-pic {
 .footer {
   height: 80px;
   background-color: #2B3D53;
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.hide {
   display: none;
 }
