@@ -22,6 +22,8 @@ toDo.addEventListener('click', function(){
   food.classList.add('hide');
   amenit.classList.add('hide');
   document.querySelector('.to-do-view').style.display = "block";
+  document.querySelector('#gc').style.display = 'block';
+  document.querySelector('#pa').style.display = 'block';
   footer.style.display = 'block';
 })
 
@@ -32,6 +34,8 @@ food.addEventListener('click', function(){
   food.classList.add('hide');
   amenit.classList.add('hide');
   document.querySelector('.cuisine-view').style.display = "block";
+  document.querySelector('#dk').style.display = 'block';
+  document.querySelector('#fh').style.display = 'block';
   footer.style.display = 'block';
 })
 
@@ -102,33 +106,23 @@ document.querySelector('#service').addEventListener('click', function(){
   document.querySelector('#service-page').style.display = 'block';
 })
 
-/*
 // Home icon functionality
 home.addEventListener('click', function(){
   if(footer.style.display == 'block'){
-    //document.querySelector('.to-do-view').classList.remove('hide');
     document.querySelector('.to-do-view').style.display = 'none';
-    //document.querySelector('.cuisine-view').classList.remove('hide');
     document.querySelector('.cuisine-view').style.display = 'none';
-    //document.querySelector('.amenities-view').classList.remove('hide');
     document.querySelector('.amenities-view').style.display = 'none';
     homePage.style.display = 'block';
     msn.textContent = "Good day. How can I serve you? Please select from..."
     toDo.classList.remove('hide');
     food.classList.remove('hide');
     amenit.classList.remove('hide');
-  }
-  if(document.querySelector('#vic-one').style.display == 'block'){
-    document.querySelector('#vic-one').style.display == 'none';
-  }
-  if(document.querySelector('#gc').style.display == 'block'){
-    document.querySelector('#gc').style.display == 'none';
-  }
-  if(document.querySelector('#pa').style.display == 'block'){
-    document.querySelector('#pa').style.display == 'none';
-  }
-  if(document.querySelector('#vic-one').style.display == 'block'){
-    document.querySelector('#vic-one').style.display == 'none';
+    document.querySelector('#vic-one').style.display = 'none';
+    document.querySelector('#chef1-page').style.display = 'none';
+    document.querySelector('#chef2-page').style.display = 'none';
+    document.querySelector('#pool-page').style.display = 'none';
+    document.querySelector('#spa-page').style.display = 'none';
+    document.querySelector('#gym-page').style.display = 'none';
+    document.querySelector('#service-page').style.display = 'none';
   }
 })
-*/
