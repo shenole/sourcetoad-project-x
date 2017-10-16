@@ -96,6 +96,7 @@ document.querySelector('#dk').addEventListener('click', function(){
   if(document.querySelector('#chef1-page').style.display == "block"){
     const audio23 = document.getElementById('audio23');
     audio23.play();
+    audio22.load();
   }
 })
 
@@ -107,6 +108,7 @@ document.querySelector('#fh').addEventListener('click', function(){
   if(document.querySelector('#chef2-page').style.display == "block"){
     const audio25 = document.getElementById('audio25');
     audio25.play();
+    audio22.load();
   }
 })
 
@@ -119,6 +121,7 @@ document.querySelector('#pool').addEventListener('click', function(){
   if(document.querySelector('#pool-page').style.display == "block"){
     const audio27 = document.getElementById('audio27');
     audio27.play();
+    audio26.load();
   }
 })
 
@@ -130,6 +133,7 @@ document.querySelector('#spa').addEventListener('click', function(){
   if(document.querySelector('#spa-page').style.display == "block"){
     const audio28 = document.getElementById('audio28');
     audio28.play();
+    audio26.load();
   }
 })
 
@@ -141,6 +145,7 @@ document.querySelector('#gym').addEventListener('click', function(){
   if(document.querySelector('#gym-page').style.display == "block"){
     const audio29 = document.getElementById('audio29');
     audio29.play();
+    audio26.load();
   }
 })
 
@@ -152,12 +157,14 @@ document.querySelector('#service').addEventListener('click', function(){
   if(document.querySelector('#service-page').style.display == "block"){
     const audio30 = document.getElementById('audio30');
     audio30.play();
+    audio26.load();
   }
 })
 
 // Home icon functionality
 home.addEventListener('click', function(){
   if(footer.style.display == 'block'){
+    footer.style.display = 'none';
     document.querySelector('.to-do-view').style.display = 'none';
     document.querySelector('.cuisine-view').style.display = 'none';
     document.querySelector('.amenities-view').style.display = 'none';
@@ -181,5 +188,13 @@ home.addEventListener('click', function(){
     document.querySelector('#service-page').style.display = 'none';
     audio20.load();
     audio21.load();
+    audio22.load();
+    audio23.load();
+    audio25.load();
+    audio26.load();
+    audio27.load();
+    audio28.load();
+    audio29.load();
+    audio30.load();
   }
 })
