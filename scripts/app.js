@@ -1,7 +1,7 @@
 // Audio plays when window is loaded
 window.onload = function greet(){
   const audioGreet = document.getElementById('greeting');
-  audioGreet.pause();
+  audioGreet.play();
 }
 
 // Variables
@@ -25,6 +25,11 @@ toDo.addEventListener('click', function(){
   document.querySelector('#gc').style.display = 'block';
   document.querySelector('#pa').style.display = 'block';
   footer.style.display = 'block';
+
+  if(document.querySelector('.to-do-view').style.display == "block"){
+    const audio20 = document.getElementById('audio20');
+    audio20.play();
+  }
 })
 
 food.addEventListener('click', function(){
@@ -37,6 +42,11 @@ food.addEventListener('click', function(){
   document.querySelector('#dk').style.display = 'block';
   document.querySelector('#fh').style.display = 'block';
   footer.style.display = 'block';
+
+  if(document.querySelector('.cuisine-view').style.display == "block"){
+    const audio22 = document.getElementById('audio22');
+    audio22.play();
+  }
 })
 
 amenit.addEventListener('click', function(){
@@ -47,6 +57,11 @@ amenit.addEventListener('click', function(){
   amenit.classList.add('hide');
   document.querySelector('.amenities-view').style.display = "block";
   footer.style.display = 'block';
+
+  if(document.querySelector('.amenities-view').style.display == "block"){
+    const audio26 = document.getElementById('audio26');
+    audio26.play();
+  }
 })
 
 // Event selection
@@ -54,12 +69,22 @@ document.querySelector('#gc').addEventListener('click', function(){
   msn.textContent = "Your reservations have been made. See you there!";
   document.querySelector('#pa').style.display = 'none';
   document.querySelector('#vic-one').style.display = 'block';
+  if(document.querySelector('#vic-one').style.display = "block"){
+    const audio21 = document.getElementById('audio21');
+    audio21.play();
+    audio20.load();
+  }
 })
 
 document.querySelector('#pa').addEventListener('click', function(){
   msn.textContent = "Your reservations have been made. See you there!";
   document.querySelector('#gc').style.display = 'none';
   document.querySelector('#vic-one').style.display = 'block';
+  if(document.querySelector('#vic-one').style.display = "block"){
+    const audio21 = document.getElementById('audio21');
+    audio21.play();
+    audio20.load();
+  }
 })
 
 // Cuisine selection
@@ -68,6 +93,10 @@ document.querySelector('#dk').addEventListener('click', function(){
   document.querySelector('#dk').style.display = "none";
   document.querySelector('#fh').style.display = "none";
   document.querySelector('#chef1-page').style.display = 'block';
+  if(document.querySelector('#chef1-page').style.display == "block"){
+    const audio23 = document.getElementById('audio23');
+    audio23.play();
+  }
 })
 
 document.querySelector('#fh').addEventListener('click', function(){
@@ -75,6 +104,10 @@ document.querySelector('#fh').addEventListener('click', function(){
   document.querySelector('#dk').style.display = "none";
   document.querySelector('#fh').style.display = "none";
   document.querySelector('#chef2-page').style.display = 'block';
+  if(document.querySelector('#chef2-page').style.display == "block"){
+    const audio25 = document.getElementById('audio25');
+    audio25.play();
+  }
 })
 
 // Amenity selection
@@ -83,6 +116,10 @@ document.querySelector('#pool').addEventListener('click', function(){
   document.querySelector('.amenities-view').style.display = "none";
   document.querySelector('.amen-des').style.display = 'block';
   document.querySelector('#pool-page').style.display = 'block';
+  if(document.querySelector('#pool-page').style.display == "block"){
+    const audio27 = document.getElementById('audio27');
+    audio27.play();
+  }
 })
 
 document.querySelector('#spa').addEventListener('click', function(){
@@ -90,6 +127,10 @@ document.querySelector('#spa').addEventListener('click', function(){
   document.querySelector('.amenities-view').style.display = "none";
   document.querySelector('.amen-des').style.display = 'block';
   document.querySelector('#spa-page').style.display = 'block';
+  if(document.querySelector('#spa-page').style.display == "block"){
+    const audio28 = document.getElementById('audio28');
+    audio28.play();
+  }
 })
 
 document.querySelector('#gym').addEventListener('click', function(){
@@ -97,6 +138,10 @@ document.querySelector('#gym').addEventListener('click', function(){
   document.querySelector('.amenities-view').style.display = "none";
   document.querySelector('.amen-des').style.display = 'block';
   document.querySelector('#gym-page').style.display = 'block';
+  if(document.querySelector('#gym-page').style.display == "block"){
+    const audio29 = document.getElementById('audio29');
+    audio29.play();
+  }
 })
 
 document.querySelector('#service').addEventListener('click', function(){
@@ -104,6 +149,10 @@ document.querySelector('#service').addEventListener('click', function(){
   document.querySelector('.amenities-view').style.display = "none";
   document.querySelector('.amen-des').style.display = 'block';
   document.querySelector('#service-page').style.display = 'block';
+  if(document.querySelector('#service-page').style.display == "block"){
+    const audio30 = document.getElementById('audio30');
+    audio30.play();
+  }
 })
 
 // Home icon functionality
@@ -130,5 +179,7 @@ home.addEventListener('click', function(){
     document.querySelector('#spa-page').style.display = 'none';
     document.querySelector('#gym-page').style.display = 'none';
     document.querySelector('#service-page').style.display = 'none';
+    audio20.load();
+    audio21.load();
   }
 })
