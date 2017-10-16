@@ -115,8 +115,14 @@ home.addEventListener('click', function(){
     homePage.style.display = 'block';
     msn.textContent = "Good day. How can I serve you? Please select from..."
     toDo.classList.remove('hide');
+    toDo.style.animation = 'none';
+    toDo.style.width = '375px';
     food.classList.remove('hide');
+    food.style.animation = 'none';
+    food.style.width = '375px';
     amenit.classList.remove('hide');
+    amenit.style.animation = 'none';
+    amenit.style.width = '375px';
     document.querySelector('#vic-one').style.display = 'none';
     document.querySelector('#chef1-page').style.display = 'none';
     document.querySelector('#chef2-page').style.display = 'none';
